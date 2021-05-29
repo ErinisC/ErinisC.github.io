@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", "Baloo Tamma 2";
+}
+.ff-bt2 {
+  font-family: "Baloo Tamma 2";
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* text setting */
+
+.text-dark {
+  color: #636057 !important;
+}
+
+/* normal style */
+
+.me-3 {
+  margin-right: 1rem !important;
+}
+.btn {
+  min-width: 96px;
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+/* main css start */
+
+.btn-warning {
+  background-color: #ffdf65 !important;
+  border-color: #ffdf65 !important;
+}
+
+/* store avatar img */
+
+.store {
+  border-radius: 50%;
+}
