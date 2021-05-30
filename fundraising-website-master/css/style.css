@@ -3,10 +3,16 @@
 }
 
 body {
-  font-family: "Noto Sans TC", "Baloo Tamma 2";
+  font-family: "Noto Sans TC", sans-serif, "Baloo Tamma 2", cursive;
 }
-.ff-bt2 {
-  font-family: "Baloo Tamma 2";
+
+@font-face {
+  font-family: "Noto Sans TC", "Baloo Tamma 2";
+  src: local("Noto Sans TC", "Baloo Tamma 2");
+}
+
+.h1 {
+  font-family: "Noto Sans TC", "Baloo Tamma 2";
 }
 
 img {
@@ -44,4 +50,14 @@ img {
 
 .store {
   border-radius: 50%;
+}
+
+/* tab area  */
+
+.nav-custom {
+  border-bottom: 1px solid #ffdf65;
+}
+
+.project{
+  /* border-radius: 10px; */
 }
