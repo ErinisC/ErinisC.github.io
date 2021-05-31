@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>拼拼</title>
     <!-- 引入css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- 引入css reset -->
     <link type="text/css" rel="stylesheet" href="css/reset.css">
     <!-- 引入bootstrap -->
@@ -28,7 +28,7 @@
         <!-- navbar start -->
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-2">
                 <a class="navbar-brand"  href="#">
-                    <img src="img/logo.jpg " width="111" height="40px" alt="">
+                    <img src="img/logo.jpg " style="width:111px; height:40px" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
@@ -135,7 +135,7 @@
                             <button class="btn btn-warning rounded-pill w-100 fw-bold" style="font-size: 1.25rem;" type="button">贊助專案</button>
                         </div>
                         <div class="col-8">
-                            <button class="btn btn-outline-secondary rounded-pill w-100 fw-bold" style="font-size: 1.25rem;" type="button"><i class="fas fa-heart me-2"></i>追蹤專案</button>
+                            <button class="track btn btn-outline-secondary rounded-pill w-100 fw-bold" style="font-size: 1.25rem;" type="button"><i class="fas fa-heart me-2"></i>追蹤專案</button>
                         </div>
                         <div class="col-4">
                             <button class="btn btn-outline-secondary rounded-pill w-100 fw-bold" style="font-size: 1.25rem;" type="button"><i class="fas fa-share-alt me-2"></i>分享</button>
@@ -147,14 +147,14 @@
     </section>
 
 
-
+  
     <!-- section2 -->
     <!-- nav for tab -->
-    <section class="mb-5 py-2 position-sticky top-0 bg-white border-2 border-gray-light border-bottom" style="z-index: 10" > 
+    <section class="mb-5 py-2 position-sticky top-0 bg-white border-2 border-light border-bottom" style="z-index: 10" > 
         <div class="container" > 
             <ul class="nav nav-custom" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link active me-3  link-dark fw-bold" id="intro" data-bs-toggle="pill" data-bs-target="#intro" href="#" role="tab" >專案介紹</a>
+                    <a class="nav-link active me-3 link-dark fw-bold" id="intro" data-bs-toggle="pill" data-bs-target="#intro" href="#" role="tab" >專案介紹</a>
                 </li>
                 <li class="nav-item" role="presentation">
                     <a class="nav-link me-3 link-dark" id="faq" data-bs-toggle="pill" data-bs-target="#faq" href="#" role="tab" >常見問答</a>
@@ -183,7 +183,7 @@
                         <div class="text-justify lh-lg">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。</div>
                             
                         <div class="d-flex">
-                            <img src="svg/icon_heart.svg" class="img-fluid mt-5 mx-auto">
+                            <img src="svg/icon_heart.svg" class="mt-5 mx-auto">
                         </div>
                         <div class="position-relative my-4">
                             <div class="progress bg-warning" style="height: 3px;">
@@ -236,57 +236,71 @@
 
             <!-- 右半邊部分 -->
             <div class="col-12 col-md-4">
-                <div class="overflow-scroll position-sticky top-nav h-100vh-nav">
+                <div class="overflow-scroll position-sticky top-nav" style="height: 100vh;">
                     <!-- 店家 -->
                     <div class="store">
                         <div class="d-flex align-items-center mb-3 ps-2">
-                            <div class="me-4 border border-warning border-3" style="border-radius: 50%;"><img src="img/store_img.jpg"></div>
+                            <div class="me-4 border border-warning border-3" style="border-radius: 50%"><img src="img/store_img.jpg" style="border-radius: 50%"></div>
                             <p>缺錢事務所<br>已發起1個專案</p>
                         </div>
                         <p class="ps-2">需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉!</p>
                         <div class="d-flex justify-content-between">
                             <div class="d-flex ps-2">
-                                <div class="icon-fb me-2"><i class="fab fa-facebook-f"></i></div>
-                                <div class="icon-yt"><i class="fab fa-youtube"></i></div>
+                                <div class="icon-fb rounded-circle me-2 text-center bg-secondary " style="width:30px;  height:30px;">
+                                    <i class="fab fa-facebook-f text-white lh-lg"></i>
+                                </div>
+                                <div class="icon-yt rounded-circle bg-secondary me-2 text-center" style="width: 30px; height: 30px;">
+                                    <i class="fab fa-youtube text-white lh-lg"></i>
+                                </div>
                             </div>
                             <div type="button" class="btn btn-outline-secondary rounded-pill fs-6 me-3"><i class="far fa-comment-dots pe-1"></i>聯絡我們</div>
                         </div>
                     </div>
                     
                     <!-- 方案 -->
-                    <div class="border-start border-end border-4 border-warning py-2 text-center fw-bold bg-light my-3">選擇一個方案來支持</div>
-                    <div class="project border border-3 border-light">
+                    <div class="border-start border-end border-4 border-warning py-2 text-center fw-bold bg-light my-3 fs-5">選擇一個方案來支持</div>
+                    <div class="project border border-3 border-light mb-3 p-3">
                         <img src="img/plan_img.jpg" alt="" class="img-fluid">
-                        <p class="mt-3">限時優惠</p>
-                        <p>2 days 20:05:20</p>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="">限時優惠</div>
+                            <div>2 days 20:05:20</div>
+                        </div>
                         <hr class="mx-0">
-                        <p>買一送一，只有兩百組別錯過<br>NT$1600</p>
+                        <p class="fw-bold fs-5">買一送一，只有兩百組別錯過<br>NT$1600</p>
                         <span class="badge bg-secondary">已被贊助88次</span>
                         <span class="badge bg-secondary">限量200個</span>
                         <p class="mt-3">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
-                        <button type="submit" class="btn btn-warning rounded-pill mb-3 mx-auto w-100">贊助此專案</button>
+                        <button type="submit" class="btn btn-warning rounded-pill mx-auto w-100">贊助此專案</button>
                     </div>
-                    <div class="project border border-3 border-light">
+
+                    <div class="border-start border-end border-4 border-warning py-2 text-center fw-bold bg-light my-3 fs-5">選擇一個方案來支持</div>
+                    <div class="project border border-3 border-light mb-3 p-3">
                         <img src="img/plan_img.jpg" alt="" class="img-fluid">
-                        <p class="mt-3">限時優惠</p>
-                        <p>2 days 20:05:20</p>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="">限時優惠</div>
+                            <div>2 days 20:05:20</div>
+                        </div>
                         <hr class="mx-0">
-                        <p>買一送一，只有兩百組別錯過<br>NT$1600</p>
+                        <p class="fw-bold fs-5">買一送一，只有兩百組別錯過<br>NT$1600</p>
                         <span class="badge bg-secondary">已被贊助88次</span>
                         <span class="badge bg-secondary">限量200個</span>
                         <p class="mt-3">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
-                        <button type="submit" class="btn btn-warning rounded-pill mb-3 mx-auto w-100">贊助此專案</button>
+                        <button type="submit" class="btn btn-warning rounded-pill mx-auto w-100">贊助此專案</button>
                     </div>
-                    <div class="project border border-3 border-light">
+                    
+                    <div class="border-start border-end border-4 border-warning py-2 text-center fw-bold bg-light my-3 fs-5">選擇一個方案來支持</div>
+                    <div class="project border border-3 border-light mb-3 p-3">
                         <img src="img/plan_img.jpg" alt="" class="img-fluid">
-                        <p class="mt-3">限時優惠</p>
-                        <p>2 days 20:05:20</p>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="">限時優惠</div>
+                            <div>2 days 20:05:20</div>
+                        </div>
                         <hr class="mx-0">
-                        <p>買一送一，只有兩百組別錯過<br>NT$1600</p>
+                        <p class="fw-bold fs-5">買一送一，只有兩百組別錯過<br>NT$1600</p>
                         <span class="badge bg-secondary">已被贊助88次</span>
                         <span class="badge bg-secondary">限量200個</span>
                         <p class="mt-3">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
-                        <button type="submit" class="btn btn-warning rounded-pill mb-3 mx-auto w-100">贊助此專案</button>
+                        <button type="submit" class="btn btn-warning rounded-pill mx-auto w-100">贊助此專案</button>
                     </div>
                 </div>
             </div>

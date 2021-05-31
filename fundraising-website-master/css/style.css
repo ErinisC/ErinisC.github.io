@@ -16,7 +16,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -24,6 +24,10 @@ img {
 
 .text-dark {
   color: #636057 !important;
+}
+
+.text-secondary {
+  color: #858377 !important;
 }
 
 /* normal style */
@@ -46,18 +50,33 @@ img {
   border-color: #ffdf65 !important;
 }
 
-/* store avatar img */
+.border-warning {
+  border-color: #ffdf65 !important;
+}
+.bg-warning {
+  border-color: #ffdf65 !important;
+}
 
-.store {
-  border-radius: 50%;
+.btn-warning:hover {
+  background-color: #ff785e;
+  color: #fff !important;
 }
 
 /* tab area  */
 
-.nav-custom {
-  border-bottom: 1px solid #ffdf65;
+.nav .active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffdf65;
 }
 
-.project{
-  /* border-radius: 10px; */
+.top-nav {
+  top: 90px;
+}
+
+button > .submit:hover {
+  background-color: #ff785e;
+}
+
+.track:hover {
+  background-color: #ffdf65;
 }
