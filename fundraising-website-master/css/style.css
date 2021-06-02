@@ -5,6 +5,7 @@
 
 body {
   font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
 }
 
 .ff-bt2 {
@@ -17,13 +18,17 @@ img {
 }
 
 /* text setting */
-
-.text-dark {
-  color: #636057 !important;
+.bg-beige {
+  background-color: #e8e8db !important;
 }
 
-.text-secondary {
-  color: #858377 !important;
+.fz-14 {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /* normal style */
@@ -33,6 +38,10 @@ img {
 }
 .btn {
   min-width: 96px;
+}
+
+.nav-link {
+  font-size: 17px;
 }
 
 .rounded-pill {
@@ -61,8 +70,8 @@ img {
 /* tab area  */
 
 .nav .active {
-  font-weight: bold;
-  border-bottom: 2px solid #ffdf65;
+  font-weight: 700;
+  border-bottom: 3px solid #ffdf65;
 }
 
 .top-nav {
