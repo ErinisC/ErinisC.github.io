@@ -1,5 +1,5 @@
 .bg-hover-bright:hover {
-  background-color: #ff785e;
+  background-color: #ff785e !important;
   color: #fff;
 }
 
@@ -11,4 +11,10 @@
 
 .bg-hover-warning:hover > i {
   color: #ff785e;
+}
+
+.bg-no-hover-secondary:hover {
+  color: #858377;
+  border-color: #858377;
+  background: #f8f9fa;
 }
