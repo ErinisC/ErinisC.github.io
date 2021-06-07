@@ -99,9 +99,7 @@
                     <span class="badge bg-secondary px-3 fw-bold" style="line-height: 22px;">魔法科技</span>
                     <h1 class="fs-2 main-title lh-lg fw-bolder">拍出會動的照片 | LivePhotos 魔法拍立得</h1>
                 </div>
-
-            <!-- col-12 col-md-7 可以寫成 .col-md-7 因為預設不滿足 md 時, 它會自動滿版 -->
-                <div class="col-md-7">
+                <div class="col-12 col-md-7">
                     <div class="main-product">
                         <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/produt_image.jpg" class="img-fluid" style="border-radius: 33px;" alt="">
                     </div>
@@ -159,7 +157,7 @@
                             <button class="track btn btn-outline-secondary border-2 rounded-pill w-100 fw-bold bg-hover-warning" style="font-size: 1.25rem;" type="button"><i class="fas fa-heart me-2"></i>追蹤專案</button>
                         </div>
                         <div class="col-4">
-                            <button class="btn btn-outline-secondary border-2 rounded-pill w-100 fw-bold bg-no-hover-secondary" style="font-size: 1.25rem;" type="button"><i class="fas fa-share-alt me-2"></i>分享</button>
+                            <button class="btn btn-outline-secondary border-2 rounded-pill w-100 fw-bold" style="font-size: 1.25rem;" type="button"><i class="fas fa-share-alt me-2"></i>分享</button>
                         </div>
                     </div>
                 </div>
@@ -200,10 +198,10 @@
                     <div class="tab-pane fade show active" id="intro" role="tabpanel">
                         <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/p1.jpg" class="w-100">
                         <h3 class="mt-4 ps-2 fw-bold border-start border-4 border-warning">施了魔法的照片</h3>
-                        <p class="text-justify lh-lg text-secondary fw-bolder">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。</p>
+                        <div class="text-justify lh-lg text-secondary fw-bolder">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。</div>
                         <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/p2.jpg" class="w-100 mt-4">
                         <h3 class="mt-4 ps-2 fw-bold border-start border-4 border-warning">留下當下的美好</h3>
-                        <p class="text-justify lh-lg text-secondary fw-bolder">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。</p>
+                        <div class="text-justify lh-lg text-secondary fw-bolder">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。</div>
                     </div>
             <!-- 常見問答 -->
                     <div class="tab-pane fade" id="faq" role="tabpanel">
@@ -385,8 +383,8 @@
                     </div>
                     <form class="mt-5">
                         <div class="mb-3">
-                            <label for="project" class="form-label fw-bold">贊助方案</label>
-                            <select id="project" class="form-select border-light bg-light" required >
+                            <label for="Select" class="form-label fw-bold">贊助方案</label>
+                            <select id="Select" class="form-select border-light bg-light" >
                                 <option>請選擇一個方案</option>
                                 <option>方案1</option>
                                 <option>方案2</option>
@@ -395,27 +393,27 @@
                         </div>
                         <div class="mb-3">
                             <label for="receivername" class="form-label fw-bold">收件人姓名</label>
-                            <input type="text" class="form-control border-light bg-light" required id="receivername">
+                            <input type="text" class="form-control border-light bg-light" id="receivername">
                         </div>
                         <div class="mb-3">
-                            <label for="phone" class="form-label fw-bold">聯絡電話</label>
-                            <input type="number" class="form-control border-light bg-light"required id="phone">
+                            <label for="phone-number" class="form-label fw-bold">聯絡電話</label>
+                            <input type="number" class="form-control border-light bg-light" id="phone-number">
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label fw-bold">聯絡信箱</label>
-                            <input type="email" class="form-control border-light bg-light" required id="email">
-                            <div class="form-text"></div>
+                            <label for="exampleInputEmail1" class="form-label fw-bold">聯絡信箱</label>
+                            <input type="email" class="form-control border-light bg-light" id="exampleInputEmail1">
+                            <div id="emailHelp" class="form-text"></div>
                         </div>
                         <div class="mb-3">
-                            <label for="payment" class="form-label fw-bold">付款方式</label>
-                            <select id="payment" class="form-select border-light bg-light" required placeholder="信用卡付款">
+                            <label for="Select" class="form-label fw-bold">付款方式</label>
+                            <select id="Select" class="form-select border-light bg-light" placeholder="信用卡付款">
                                 <option>信用卡付款</option>
                                 <option>現金付款</option>
                                 <option>ATM轉帳</option>
                             </select>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-warning rounded-pill py-3 px-5 my-4">贊助專案</button>
+                            <button type="submit" class="btn btn-warning rounded-pill py-3 px-5 fw-bold my-4">贊助專案</button>
                         </div>
                     </form>
                 </div>
@@ -508,8 +506,8 @@
                 </div>
                 <form class="mt-5">
                     <div class="mb-3">
-                        <label for="project" class="form-label fw-bold">贊助方案</label>
-                        <select id="project" class="form-select border-light bg-light" required >
+                        <label for="Select" class="form-label fw-bold">贊助方案</label>
+                        <select id="Select" class="form-select border-light bg-light" >
                             <option>請選擇一個方案</option>
                             <option>方案1</option>
                             <option>方案2</option>
@@ -518,20 +516,20 @@
                     </div>
                     <div class="mb-3">
                         <label for="receivername" class="form-label fw-bold">收件人姓名</label>
-                        <input type="text" class="form-control border-light bg-light" required id="receivername">
+                        <input type="text" class="form-control border-light bg-light" id="receivername">
                     </div>
                     <div class="mb-3">
-                        <label for="phone" class="form-label fw-bold">聯絡電話</label>
-                        <input type="number" class="form-control border-light bg-light"requiredid="phone">
+                        <label for="phone-number" class="form-label fw-bold">聯絡電話</label>
+                        <input type="number" class="form-control border-light bg-light" id="phone-number">
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label fw-bold">聯絡信箱</label>
-                        <input type="email" class="form-control border-light bg-light" required id="email">
-                        <div class="form-text"></div>
+                        <label for="exampleInputEmail1" class="form-label fw-bold">聯絡信箱</label>
+                        <input type="email" class="form-control border-light bg-light" id="exampleInputEmail1">
+                        <div id="emailHelp" class="form-text"></div>
                     </div>
                     <div class="mb-3">
-                        <label for="payment" class="form-label fw-bold">付款方式</label>
-                        <select id="payment" class="form-select border-light bg-light" required placeholder="信用卡付款">
+                        <label for="Select" class="form-label fw-bold">付款方式</label>
+                        <select id="Select" class="form-select border-light bg-light " placeholder="信用卡付款">
                             <option>信用卡付款</option>
                             <option>現金付款</option>
                             <option>ATM轉帳</option>
